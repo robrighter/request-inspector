@@ -106,6 +106,136 @@ textarea {
    ========================================================================== */
 
 
+ /* Primary Styles
+    Author: Rob Righter
+ */
+
+
+
+body{
+  background-color: #161616;
+}
+ 
+h1, h2 { 
+   font-family: 'Yanone Kaffeesatz', arial, serif;
+   font-weight: bold;
+   color: #8B77FF;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+
+h2 {
+  font-size: 30px;
+  color: #78B0FF;
+}
+
+h5 {
+  color: #78B0FF;
+  margin-top: 10px;
+}
+
+#main {
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #111111;
+  padding: 20px;
+}
+
+.instructions {
+  padding: 10px;
+  color: #938CC3;
+}
+
+.label {
+  color: #938CC3;
+}
+
+#console, #response form textarea  {
+  background-color: #282634;
+  padding: 10px;
+  color: #938CC3;
+  border: 1px solid #382644;
+  height: 400px;
+  width: 928px;
+  margin-top: 10px;
+  margin-bottom: 55px;
+  font-family: 'Courier New','Droid Sans Mono', arial, serif;
+}
+
+#console {
+  overflow-y: scroll;
+}
+
+#response form button, #homesearch form button {
+  float: right;
+  background-color: #75AA3E;
+  color: #161A1D;
+  width: 200px;
+  height: 25px;
+  border: 1px solid #9ED258;
+  font-family: 'Yanone Kaffeesatz', arial, serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#response form button:hover, #homesearch form button:hover {
+  background-color: #A7D765;
+}
+
+code {
+  font-family: 'Courier New','Droid Sans Mono', arial, serif;
+}
+
+#homesearch form #channelselector {
+  background-color: #282634;
+  padding: 5px;
+  color: #938CC3;
+  border: 1px solid #382644;
+  width: 490px;
+  font-size: 25px;
+  font-family: 'Courier New','Droid Sans Mono', arial, serif;
+}
+
+#homesearch {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 150px;
+}
+
+#homesearch h2, #homesearch .label {
+  float: left;
+}
+
+#homesearch h1 {
+  margin-bottom: 40px;
+}
+
+#homesearch .label {
+  margin-top: 17px;
+  margin-left: 10px;
+}
+
+.break {
+  clear: both;
+}
+
+#console .key {
+  color: #8C6DFF;
+}
+
+hr {
+  color:none;
+  border:none;
+  border-top:1px #290943 solid;
+  height:1px;
+  overflow:hidden;
+  line-height:1px;
+}
 
 
 

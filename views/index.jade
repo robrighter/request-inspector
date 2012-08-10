@@ -1,6 +1,11 @@
 extends layout
 
 block content
-	div
-		a(id='sender')='Send a Message'
-		ul(id='receiver')
+	#homesearch
+		h1='Request Inspector'
+		form
+			h2='Choose Url'
+			div.label='(example: "tester123" will be http://robrighter.no.de/tester123)'
+			input(type='text',id='channelselector')
+			button(type='submit')='Start Console'
+		div.break

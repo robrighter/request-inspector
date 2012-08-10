@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	h1='Request Inspector'
+	h2=channelname
+
+	div.instructions
+		p='To view the request to a POST or a GET on this console, direct your request to the following url:'
+		code='http://robrighter.no.de/'+channelname
+
+	h2='Console:'
+	#console=''
+
+	#response
+		form
+			button(type='button')='Save Response'
+			h2='Response Text (for both POST and GET):'
+			textarea=responsetext
+	script
+		|	var channelname = '<%= channelname %>';
+		|	socket.send(JSON.stringify({
+		|		cmd : "connect",
+		|		channel : channelname
+		|	}));
+		
